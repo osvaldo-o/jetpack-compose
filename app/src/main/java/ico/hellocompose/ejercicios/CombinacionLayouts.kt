@@ -55,11 +55,3 @@ fun MyComplexLayout() {
         }
     }
 }
-
-@Preview(showBackground = true, showSystemUi = true)
-@Composable
-fun PreviewColumn() {
-    HelloComposeTheme {
-        MyComplexLayout()
-    }
-}
