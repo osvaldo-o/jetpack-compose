@@ -11,6 +11,8 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import ico.hellocompose.button.MyButton
+import ico.hellocompose.progressbar.MyProgress
+import ico.hellocompose.progressbar.MyProgressAdvance
 import ico.hellocompose.ui.theme.HelloComposeTheme
 
 class MainActivity : ComponentActivity() {
@@ -23,7 +25,7 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-                    MyButton()
+                    MyProgressAdvance()
                 }
             }
         }
@@ -42,6 +44,6 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
 @Composable
 fun GreetingPreview() {
     HelloComposeTheme {
-        MyButton()
+        MyProgressAdvance()
     }
 }
