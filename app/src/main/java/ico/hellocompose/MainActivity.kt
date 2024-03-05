@@ -1,6 +1,7 @@
 package ico.hellocompose
 
 import android.os.Bundle
+import android.widget.SearchView
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.compose.foundation.background
@@ -8,6 +9,11 @@ import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.size
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.Favorite
+import androidx.compose.material3.Badge
+import androidx.compose.material3.BadgedBox
+import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
@@ -24,6 +30,7 @@ import ico.hellocompose.button.MyButton
 import ico.hellocompose.control.CheckInfo
 import ico.hellocompose.control.MyCheckBoxWithText
 import ico.hellocompose.control.MyRadioButton
+import ico.hellocompose.dropDownMenu.MyDropDownMenu
 import ico.hellocompose.progressbar.MyProgress
 import ico.hellocompose.progressbar.MyProgressAdvance
 import ico.hellocompose.ui.theme.HelloComposeTheme
@@ -35,14 +42,9 @@ class MainActivity : ComponentActivity() {
             HelloComposeTheme {
                 // A surface container using the 'background' color from the theme
                 Surface(
-                    modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-                    Column(Modifier.fillMaxSize()) {
-                        for (i in 1.. 3) {
-                            MyCard()
-                        }
-                    }
+                    MyDropDownMenu()
                 }
             }
         }
@@ -67,10 +69,6 @@ fun getOptions(titles: List<String>) : List<CheckInfo> = titles.map {
 @Composable
 fun GreetingPreview() {
     HelloComposeTheme {
-        Column(Modifier.fillMaxSize()) {
-            for (i in 1.. 3) {
-                MyCard()
-            }
-        }
+        MyDropDownMenu()
     }
 }
