@@ -14,10 +14,12 @@ import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.setValue
+import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.sp
 
 @Composable
 fun MyCheckBox() {
@@ -36,11 +38,11 @@ data class CheckInfo(val title: String, var selected: Boolean = false, var onChe
 
 @Composable
 fun MyCheckBoxWithText(checkInfo: CheckInfo) {
-    Row() {
+    Row(verticalAlignment = Alignment.CenterVertically) {
         Checkbox(
             checked = checkInfo.selected,
             onCheckedChange = {checkInfo.onCheckedChange(!it)})
-        Text(text = checkInfo.title, Modifier.padding(vertical = 16.dp), fontWeight = FontWeight.Bold)
+        Text(text = checkInfo.title, Modifier.padding(vertical = 16.dp), fontWeight = FontWeight.Normal, fontSize = 16.sp)
     }
 }
 
