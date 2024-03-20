@@ -32,6 +32,7 @@ import ico.hellocompose.control.MyCheckBoxWithText
 import ico.hellocompose.control.MyRadioButton
 import ico.hellocompose.dialog.StateDialog
 import ico.hellocompose.dropDownMenu.MyDropDownMenu
+import ico.hellocompose.lazy.PreviewLazy
 import ico.hellocompose.progressbar.MyProgress
 import ico.hellocompose.progressbar.MyProgressAdvance
 import ico.hellocompose.slider.BasicSlider
@@ -46,7 +47,7 @@ class MainActivity : ComponentActivity() {
                 Surface(
                     color = MaterialTheme.colorScheme.background
                 ) {
-                    StateDialog()
+                    PreviewLazy()
                 }
             }
         }
@@ -71,6 +72,6 @@ fun getOptions(titles: List<String>) : List<CheckInfo> = titles.map {
 @Composable
 fun GreetingPreview() {
     HelloComposeTheme {
-        StateDialog()
+        PreviewLazy()
     }
 }
