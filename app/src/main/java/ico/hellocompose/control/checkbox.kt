@@ -46,3 +46,17 @@ fun MyCheckBoxWithText(checkInfo: CheckInfo) {
     }
 }
 
+@Composable
+fun MainComposable() {
+    getOptions(titles = listOf("checkbox 1", "checkbox 2", "checkbox 3")).forEach {
+        MyCheckBoxWithText(checkInfo = it)
+    }
+}
+
+@Composable
+fun getOptions(titles: List<String>) : List<CheckInfo> = titles.map {
+    var status by rememberSaveable {
+        mutableStateOf(false)
+    }
+    CheckInfo(title = it, selected = status, onCheckedChange = {status = !it})
+}

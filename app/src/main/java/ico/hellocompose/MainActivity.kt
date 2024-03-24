@@ -27,6 +27,7 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import ico.hellocompose.button.MyButton
+import ico.hellocompose.codelabs.retos.DiceRollerApp
 import ico.hellocompose.control.CheckInfo
 import ico.hellocompose.control.MyCheckBoxWithText
 import ico.hellocompose.control.MyRadioButton
@@ -47,31 +48,18 @@ class MainActivity : ComponentActivity() {
                 Surface(
                     color = MaterialTheme.colorScheme.background
                 ) {
-                    PreviewLazy()
+                   DiceRollerApp()
                 }
             }
         }
     }
 }
 
-@Composable
-fun MainComposable() {
-    getOptions(titles = listOf("checkbox 1", "checkbox 2", "checkbox 3")).forEach {
-        MyCheckBoxWithText(checkInfo = it)
-    }
-}
 
-@Composable
-fun getOptions(titles: List<String>) : List<CheckInfo> = titles.map {
-    var status by rememberSaveable {
-        mutableStateOf(false)
-    }
-    CheckInfo(title = it, selected = status, onCheckedChange = {status = !it})
-}
 @Preview(showBackground = true, showSystemUi = true)
 @Composable
 fun GreetingPreview() {
     HelloComposeTheme {
-        PreviewLazy()
+        DiceRollerApp()
     }
 }
