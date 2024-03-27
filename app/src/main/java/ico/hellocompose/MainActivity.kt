@@ -29,6 +29,7 @@ import androidx.compose.ui.unit.dp
 import ico.hellocompose.button.MyButton
 import ico.hellocompose.codelabs.retos.AppLemonade
 import ico.hellocompose.codelabs.retos.DiceRollerApp
+import ico.hellocompose.codelabs.retos.TrainingTipCalculator
 import ico.hellocompose.control.CheckInfo
 import ico.hellocompose.control.MyCheckBoxWithText
 import ico.hellocompose.control.MyRadioButton
@@ -49,7 +50,7 @@ class MainActivity : ComponentActivity() {
                 Surface(
                     color = MaterialTheme.colorScheme.background
                 ) {
-                   AppLemonade()
+                   TrainingTipCalculator()
                 }
             }
         }
@@ -61,6 +62,6 @@ class MainActivity : ComponentActivity() {
 @Composable
 fun GreetingPreview() {
     HelloComposeTheme {
-        AppLemonade()
+        TrainingTipCalculator()
     }
 }
