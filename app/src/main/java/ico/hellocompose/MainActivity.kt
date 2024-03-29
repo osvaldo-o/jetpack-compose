@@ -27,6 +27,7 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import ico.hellocompose.button.MyButton
+import ico.hellocompose.codelabs.retos.AppArtSpace
 import ico.hellocompose.codelabs.retos.AppLemonade
 import ico.hellocompose.codelabs.retos.DiceRollerApp
 import ico.hellocompose.codelabs.retos.TrainingTipCalculator
@@ -50,7 +51,7 @@ class MainActivity : ComponentActivity() {
                 Surface(
                     color = MaterialTheme.colorScheme.background
                 ) {
-                   TrainingTipCalculator()
+                   AppArtSpace()
                 }
             }
         }
@@ -62,6 +63,6 @@ class MainActivity : ComponentActivity() {
 @Composable
 fun GreetingPreview() {
     HelloComposeTheme {
-        TrainingTipCalculator()
+        AppArtSpace()
     }
 }
