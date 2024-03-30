@@ -1,13 +1,9 @@
 package ico.hellocompose
 
-import androidx.compose.material3.MaterialTheme
-import androidx.compose.material3.Surface
 import androidx.compose.ui.test.junit4.createComposeRule
 import androidx.compose.ui.test.onNodeWithText
 import androidx.compose.ui.test.performTextInput
-import ico.hellocompose.button.MyButton
-import ico.hellocompose.codelabs.retos.TrainingTipCalculator
-import ico.hellocompose.ui.theme.HelloComposeTheme
+import ico.hellocompose.codelabs.google.TrainingTipCalculator
 import org.junit.Rule
 import org.junit.Test
 import org.junit.runner.RunWith

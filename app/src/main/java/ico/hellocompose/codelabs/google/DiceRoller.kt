@@ -1,6 +1,5 @@
-package ico.hellocompose.codelabs.retos
+package ico.hellocompose.codelabs.google
 
-import android.widget.Space
 import androidx.annotation.DrawableRes
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Column

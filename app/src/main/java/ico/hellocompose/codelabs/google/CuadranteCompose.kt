@@ -1,4 +1,4 @@
-package ico.hellocompose.codelabs.retos
+package ico.hellocompose.codelabs.google
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement

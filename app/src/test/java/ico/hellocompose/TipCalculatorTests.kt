@@ -1,6 +1,6 @@
 package ico.hellocompose
 
-import ico.hellocompose.codelabs.retos.calculateTip
+import ico.hellocompose.codelabs.google.calculateTip
 import junit.framework.TestCase.assertEquals
 import org.junit.Test
 import java.text.NumberFormat
