@@ -8,6 +8,7 @@ import androidx.compose.material3.Surface
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.tooling.preview.Preview
 import ico.hellocompose.codelabs.google.AppArtSpace
+import ico.hellocompose.codelabs.google.affirmation.ui.AffirmationApp
 import ico.hellocompose.ui.theme.HelloComposeTheme
 
 class MainActivity : ComponentActivity() {
@@ -19,7 +20,7 @@ class MainActivity : ComponentActivity() {
                 Surface(
                     color = MaterialTheme.colorScheme.background
                 ) {
-                   AppArtSpace()
+                   AffirmationApp()
                 }
             }
         }
@@ -31,6 +32,6 @@ class MainActivity : ComponentActivity() {
 @Composable
 fun GreetingPreview() {
     HelloComposeTheme {
-        AppArtSpace()
+        AffirmationApp()
     }
 }
