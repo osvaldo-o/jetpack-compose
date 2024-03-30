@@ -1,4 +1,4 @@
-package ico.hellocompose
+package ico.hellocompose.card
 
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
