@@ -10,18 +10,19 @@ import androidx.compose.ui.tooling.preview.Preview
 import ico.hellocompose.codelabs.google.AppArtSpace
 import ico.hellocompose.codelabs.google.affirmation.ui.AffirmationApp
 import ico.hellocompose.codelabs.google.courses.ui.AppCourses
+import ico.hellocompose.codelabs.google.superhero.ui.screens.SuperHeroesApp
+import ico.hellocompose.codelabs.google.superhero.ui.theme.SuperheroesTheme
 import ico.hellocompose.ui.theme.HelloComposeTheme
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
-            HelloComposeTheme {
-                // A surface container using the 'background' color from the theme
+            SuperheroesTheme {
                 Surface(
                     color = MaterialTheme.colorScheme.background
                 ) {
-                   AppCourses()
+                   SuperHeroesApp()
                 }
             }
         }
@@ -32,7 +33,7 @@ class MainActivity : ComponentActivity() {
 @Preview(showBackground = true, showSystemUi = true)
 @Composable
 fun GreetingPreview() {
-    HelloComposeTheme {
-        AppCourses()
+    SuperheroesTheme {
+        SuperHeroesApp()
     }
 }
