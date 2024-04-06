@@ -7,22 +7,16 @@ import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.tooling.preview.Preview
-import ico.hellocompose.codelabs.google.AppArtSpace
-import ico.hellocompose.codelabs.google.affirmation.ui.AffirmationApp
-import ico.hellocompose.codelabs.google.courses.ui.AppCourses
-import ico.hellocompose.codelabs.google.superhero.ui.screens.SuperHeroesApp
-import ico.hellocompose.codelabs.google.superhero.ui.theme.SuperheroesTheme
-import ico.hellocompose.ui.theme.HelloComposeTheme
+import ico.hellocompose.codelabs.google.starwars.ui.AppStarWars
+import ico.hellocompose.codelabs.google.starwars.ui.theme.StarWarsTheme
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
-            SuperheroesTheme {
-                Surface(
-                    color = MaterialTheme.colorScheme.background
-                ) {
-                   SuperHeroesApp()
+            StarWarsTheme {
+                Surface() {
+                   AppStarWars()
                 }
             }
         }
@@ -30,10 +24,10 @@ class MainActivity : ComponentActivity() {
 }
 
 
-@Preview(showBackground = true, showSystemUi = true)
+@Preview()
 @Composable
 fun GreetingPreview() {
-    SuperheroesTheme {
-        SuperHeroesApp()
+    StarWarsTheme {
+        AppStarWars()
     }
 }

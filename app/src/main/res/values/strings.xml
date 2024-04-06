@@ -58,4 +58,48 @@
     <string name="description5">Effortlessly glides in to save the day</string>
     <string name="hero6">Dynamic Yasmine</string>
     <string name="description6">Ability to shift to any form and energize</string>
+
+    // App Star wars
+    <string name="app_name_star_wars">Star wars</string>
+    <string name="name_dart_vader">Darth Vader </string>
+    <string name="description_dart_vader">Lord Vader es la esencia de Star Wars, un icono que ha sido capaz de situarse como uno de los mejores villanos de la historia del cine. Si algo hay que agradecer a las precuelas es el haber sabido construir su historia para comprender su grandeza y hacer ver que Star Wars es, en realidad, la historia de Anakin Skywalker</string>
+    <string name="name_han_solo">Han Solo</string>
+    <string name="description_han_solo">Un sinvergüenza al que es imposible resistirse, con un carisma capaz de robar tu dignidad y tu cartera. El arrogante favorito de toda la galaxia, un cowboy espacial que se convierte en héroe como piloto del Halcón Milenario</string>
+    <string name="name_obi_wan">obi Wan Kenobi</string>
+    <string name="description_obi_wan">El maestro Kenobi es uno de los personajes más interesantes de Star Wars, desde sus primeros días con esa trenza de Padawan hasta su evaporación ante Vader.</string>
+    <string name="name_leia_organa">Leia Organa</string>
+    <string name="description_leia_organa">Una fortísima mujer en una galaxia plagada de hombres, droides, wookies y demás especímenes.</string>
+    <string name="name_kylo_ren">Kylo Ren</string>
+    <string name="description_kylo_ren">Un villano bien construido, en parte, gracias al gran actor que es Adam Driver, que se debate entre seguir la estela de destrucción del abuelo Vader o acudir a la luz de sus padres.</string>
+    <string name="name_rey">Rey</string>
+    <string name="description_rey">Rey es uno de los grandes aciertos de la última trilogía, la Jedi más poderosa y también inspiradora para toda una generación</string>
+    <string name="name_luke_skywalker">Luke Skywalker</string>
+    <string name="description_luke_skywalker">Luke Skywalker fue un humano sensible a la Fuerza y un Maestro Jedi quien, junto a su hermana gemela, la Princesa Leia Organa, luchó en contra del gobierno del Imperio Galáctico durante la Guerra Civil Galáctica.</string>
+    <string name="name_chewbacca">Chewbacca</string>
+    <string name="description_chewbacca">Chewie, el fiel compañero de Han Solo, un wookie tan temperamental (nunca juegues con él al Dejarik) como enemigo del Imperio. Copiloto, mecánico y "felpudo con patas", detrás de esa apariencia intimidatoria se esconde el mejor amigo que uno pueda desear</string>
+    <string name="name_r2_d2">R2-D2</string>
+    <string name="description_r2_d2">Fue un droide astromecánico serie R2 manufacturado por Industrias Automaton con programación masculina. Un ingenioso y valiente droide, R2-D2 sirvió a una multitud de maestros a lo largo de su vida.</string>
+    <string name="name_emperador_palpatine">Palpatine</string>
+    <string name="description_emperador_palpatine">Fue un humano sensible a la Fuerza que sirvió como el último Canciller de la República Galáctica y el primer Emperador del Imperio Galáctico. Fue un Señor Oscuro de los Sith que seguía la Regla de Dos, un antiguo principio de la Orden de los Lores Sith, y fue el Lord Sith más poderoso en la historia galáctica.</string>
+    <string name="name_yoda">Yoda</string>
+    <string name="description_yoda">Yoda fue un miembro masculino de una especie misteriosa. Era un reverenciado Maestro Jedi que sirvió como Gran Maestro de la Orden Jedi en los últimos días de la República Galáctica</string>
+    <string name="name_din_djarin">Din Djarin</string>
+    <string name="description_din_djarin">Fue un guerrero mandaloriano humano durante la era de la Nueva República. Con su armadura mandaloriana, su pistola bláster IB-94, su rifle de francotirador ambano y su distintivo casco de beskar</string>
+    <string name="name_cassian_andor">Cassian Andor</string>
+    <string name="description_cassian_andor">Cassian Jeron Andor fue un hombre humano operativo de la Alianza para Restaurar la República que fue recordado como un héroe después de su sacrificio para asegurar los planos de la Estrella de la Muerte del Imperio Galáctico en la Batalla de Scarif</string>
+    <string name="name_lando_calrissian">Lando Calrissian</string>
+    <string name="description_lando_calrissian">Fue un hombre humano contrabandista, apostador y jugador de cartas que se convirtió en el Barón Administrador de Ciudad Nube y, más tarde, en un general de la Alianza Rebelde.</string>
+    <string name="name_gui_gon_jinn">Qui-Gon Jinn</string>
+    <string name="description_gui_gon_jinn">Qui-Gon Jinn, un hombre humano sensible a la Fuerza, fue un venerable y rebelde Maestro Jedi que vivió durante los últimos años de la era de la República. Era un miembro sabio y respetado de la Orden Jedi, y se le ofreció un asiento en el Consejo Jedi que él decidió rechazar para seguir su propio camino.</string>
+    <string name="name_darth_maul">Darth Maul</string>
+    <string name="description_dart_maul">Maul fue un zabrak dathomiriano sensible a la Fuerza y un guerrero del lado oscuro que sirvió como el aprendiz Señor Oscuro de los Sith Darth Maul durante los últimos años de la República Galáctica y reinó como señor del crimen durante el dominio del Imperio Galáctico.</string>
+    <string name="name_bb8">BB-8</string>
+    <string name="description_bb8">BB-8 era un droide astromecánico de la serie BB La mayor parte de su cuerpo estaba formado por una esfera metálica que le permitía rodar para desplazarse</string>
+    <string name="name_jyn_esso">Jyn Esso</string>
+    <string name="description_jyn_esso">Fue una mujer humana, soldado y ex criminal que se convirtió en un miembro fundamental de la Alianza para Restaurar la República cuando lideró a Rogue One en el robo de los planos de la Estrella de la Muerte durante la Batalla de Scarif.</string>
+    <string name="name_grogu">Grogu</string>
+    <string name="description_grogu">Fue un Iniciado Jedi y expósito mandaloriano sensible a la Fuerza que pertenecía a la misma especie del Gran Maestro Jedi Yoda y la Maestra Jedi Yaddle</string>
+    <string name="name_jabba">Jabba el Hutt</string>
+    <string name="description_jabba">Fue uno de los señores del crimen hutt más conocidos en la galaxia, que gobernó un gran imperio criminal localizado en los Territorios del Borde Exterior desde su palacio del desierto en Tatooine.</string>
+    
 </resources>
